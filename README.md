@@ -20,6 +20,8 @@ limitations under the License.
 
 # Seconds in a Day
 
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+
 > Number of seconds in a day.
 
 <section class="installation">
@@ -122,6 +124,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+[npm-image]: http://img.shields.io/npm/v/@stdlib/constants-time-seconds-in-day.svg
+[npm-url]: https://npmjs.org/package/@stdlib/constants-time-seconds-in-day
+
+[test-image]: https://github.com/stdlib-js/constants-time-seconds-in-day/actions/workflows/test.yml/badge.svg
+[test-url]: https://github.com/stdlib-js/constants-time-seconds-in-day/actions/workflows/test.yml
+
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-time-seconds-in-day/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/constants-time-seconds-in-day?branch=main
+
+[dependencies-image]: https://img.shields.io/david/stdlib-js/constants-time-seconds-in-day
+[dependencies-url]: https://david-dm.org/stdlib-js/constants-time-seconds-in-day/main
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
