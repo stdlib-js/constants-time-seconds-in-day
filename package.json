@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-time-seconds-in-day",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Number of seconds in a day.",
   "license": "Apache-2.0",
   "author": {
