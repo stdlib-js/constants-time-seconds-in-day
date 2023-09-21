@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import SECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@esm/index.mjs';
+import SECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@v0.1.0-esm/index.mjs';
 ```
 
 #### SECONDS_IN_DAY
@@ -82,7 +82,7 @@ var bool = ( SECONDS_IN_DAY === 86400 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import roundn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@esm/index.mjs';
-import SECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@esm/index.mjs';
+import SECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@v0.1.0-esm/index.mjs';
 
 var days;
 var secs;
