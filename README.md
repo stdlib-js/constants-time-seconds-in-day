@@ -35,38 +35,32 @@ limitations under the License.
 
 > Number of seconds in a day.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-time-seconds-in-day
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-SECONDS_IN_DAY = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var SECONDS_IN_DAY = require( 'path/to/vendor/umd/constants-time-seconds-in-day/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.SECONDS_IN_DAY;
-})();
-</script>
+var SECONDS_IN_DAY = require( '@stdlib/constants-time-seconds-in-day' );
 ```
 
 #### SECONDS_IN_DAY
@@ -98,15 +92,10 @@ var bool = ( SECONDS_IN_DAY === 86400 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var roundn = require( '@stdlib/math-base-special-roundn' );
+var SECONDS_IN_DAY = require( '@stdlib/constants-time-seconds-in-day' );
 
 var days;
 var secs;
@@ -121,11 +110,6 @@ for ( i = 0; i < 10; i++ ) {
     secs = days2secs( days );
     console.log( '%d days => %d seconds', days, secs );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -203,8 +187,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/constants-time-seconds-in-day/tree/deno
+[deno-readme]: https://github.com/stdlib-js/constants-time-seconds-in-day/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/constants-time-seconds-in-day/tree/umd
+[umd-readme]: https://github.com/stdlib-js/constants-time-seconds-in-day/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/constants-time-seconds-in-day/tree/esm
+[esm-readme]: https://github.com/stdlib-js/constants-time-seconds-in-day/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/constants-time-seconds-in-day/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-time-seconds-in-day/main/LICENSE
