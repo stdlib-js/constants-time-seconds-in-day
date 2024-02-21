@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import SECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-time-seconds-in-day/tags). For example,
+
+```javascript
 import SECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@v0.3.1-esm/index.mjs';
 ```
 
@@ -82,7 +87,7 @@ var bool = ( SECONDS_IN_DAY === 86400 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import roundn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@esm/index.mjs';
-import SECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@v0.3.1-esm/index.mjs';
+import SECONDS_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@esm/index.mjs';
 
 var days;
 var secs;
