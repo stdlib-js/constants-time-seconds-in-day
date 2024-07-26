@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+SECONDS_IN_DAY = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-time-seconds-in-day/tags). For example,
+
+```javascript
 SECONDS_IN_DAY = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@v0.3.2-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var SECONDS_IN_DAY = require( 'path/to/vendor/umd/constants-time-seconds-in-day/
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@v0.3.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -104,7 +109,7 @@ var bool = ( SECONDS_IN_DAY === 86400 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@v0.3.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-seconds-in-day@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
